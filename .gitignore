@@ -1,0 +1,5 @@
+# Original EPUB file
+*.epub
+
+# macOS
+.DS_Store

@@ -1,0 +1,87 @@
+.book-container {
+  display: block;
+  margin: 0;          
+  padding: 0;         
+  max-width: none;    
+  min-height: auto;
+}
+.calibre {
+  color: #2c2c2c;
+  display: block;
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-size: 1em;
+  line-height: 1.8;
+  margin: 0 5pt;
+  padding: 0;
+}
+.calibre1 {
+  color: #1a1a1a;
+  display: block;
+  font-size: 3em;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  line-height: 1.2;
+  margin: 48px 0 24px; 
+}
+.calibre2 {
+  color: #2c2c2c;
+  display: block;
+  font-size: 1.41667em;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 3em 0 5em;
+}
+.calibre3 {
+  display: block;
+  text-align: justify;
+  text-indent: 2em;
+  margin: 0;
+}
+.no-indent-caps {
+  display: block;
+  text-align: justify;
+  text-indent: 0;
+  margin: 3em 0 0;
+}
+.page-break {
+  break-after: page;
+  display: block;
+}
+
+.title-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  align-items: center;         
+  margin: 24px 0;
+  padding: 0;
+  text-align: center;
+}
+
+.signature {
+  display: block;
+  max-width: 70%;
+  width: 70%;
+  height: auto;
+  margin: 24px 0;
+  pointer-events: none;
+}
+
+.flex-spacer {
+  flex: 1 1 auto;
+}
+
+.author {
+  color: #555;
+  display: block;
+  font-size: 1.125em;
+  font-variant: small-caps;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-indent: 0;
+  margin-top: 50vh;
+}
+

@@ -1,0 +1,39 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="uuid_id">
+  <metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:calibre="http://calibre.kovidgoyal.net/2009/metadata">
+    <dc:title>DTV</dc:title>
+    <dc:creator opf:role="aut" opf:file-as="Michael Moritz">Michael Moritz</dc:creator>
+    <dc:contributor opf:role="bkp">calibre (8.14.0) [https://calibre-ebook.com]</dc:contributor>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">11fce4e6-60b8-407e-a0ea-15361deaad8b</dc:identifier>
+    <dc:date>0101-01-01T00:00:00+00:00</dc:date>
+    <dc:language>en</dc:language>
+    <dc:identifier opf:scheme="calibre">7edd60cc-b205-48e1-bd1b-70929d6b2492</dc:identifier>
+    <meta name="calibre:timestamp" content="2025-11-15T16:23:20.045961+00:00"/>
+    <meta name="calibre:title_sort" content="DTV"/>
+    <meta name="cover" content="cover"/>
+  </metadata>
+  <manifest>
+    <item id="titlepage" href="titlepage.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id" href="blank1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="html3" href="ebook-generator_split_000.html" media-type="application/xhtml+xml"/>
+    <item id="html2" href="ebook-generator_split_001.html" media-type="application/xhtml+xml"/>
+    <item id="id-1" href="blank2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="html1" href="ebook-generator_split_002.html" media-type="application/xhtml+xml"/>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="page_css" href="page_styles.css" media-type="text/css"/>
+    <item id="css" href="stylesheet.css" media-type="text/css"/>
+    <item id="cover" href="cover_image.jpg" media-type="image/jpeg"/>
+    <item id="added" href="signature.png" media-type="image/png"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="titlepage"/>
+    <itemref idref="id"/>
+    <itemref idref="html3"/>
+    <itemref idref="html2"/>
+    <itemref idref="id-1"/>
+    <itemref idref="html1"/>
+  </spine>
+  <guide>
+    <reference type="cover" href="titlepage.xhtml" title="Title page"/>
+  </guide>
+</package>

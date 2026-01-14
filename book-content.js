@@ -1,0 +1,692 @@
+// Book content extracted from DTV epub
+// Author: Michael Moritz
+// Split into thematic chapters
+
+const BOOK_CONTENT = {
+  "title": "DTV",
+  "author": "Michael Moritz",
+  "chapters": [
+    {
+      "id": "preface",
+      "title": "Preface",
+      "paragraphs": [
+        {
+          "class": "no-indent-caps",
+          "text": "THIS IS A PORTRAIT OF DON VALENTINE AND THE ROOTS AND BEGINNINGS OF SEQUOIA."
+        },
+        {
+          "class": "",
+          "text": "Don was born at a time when veterans of America's Civil War were still alive. When he entered the U.S. Army in 1954, there was not a satellite in the sky. In the early 1960s, when he moved to Northern California, American schools regularly conducted drills for nuclear attacks and millions of African-Americans were still prevented from voting. Don began his fulltime investment career at the start of 1972, just before Richard Nixon flew to China to begin a relationship with Chairman Mao."
+        },
+        {
+          "class": "calibre3",
+          "text": "This is about an era during which almost all technology companies of merit were formed in the United States; when women, unfortunately, played a minor role in Silicon Valley; when it was very expensive to start a company and before Sequoia had even contemplated doing business in China or India or South-east Asia or forming Sequoia Heritage, Sequoia Capital Global Equities, or a Global Growth Fund (let alone RMB funds, Surge, AMP or Base Camp). This is a sketch of the first chapter of Sequoia, which ended in 1996, but without which none of us would have enjoyed all the goodness that has come our way or be doing what we now do."
+        },
+        {
+          "class": "calibre3",
+          "text": "In 1986, the year I joined Sequoia (which, I'm afraid, now makes me the longest serving member of our business), almost half of the people who today work in our Menlo Park office had yet to be born. So bear with me. Some of this may seem arcane or closer to Babylonian times than 2020. But beyond the portrait of Don, I hope you find some relevant nuggets because, while the scenery, the venues, and the cast of characters have changed, the essence of investing and teamwork remain the same. I hope you also understand that while Don penned our first chapter, great organizations only thrive if later generations contine the story while having the humility to grasp that their contributions too will eventually fade."
+        },
+        {
+          "class": "no-indent-caps",
+          "text": "THIS IS DON AND THIS IS HOW SEQUOIA BEGAN."
+        }
+      ]
+    },
+    {
+      "id": "ch1",
+      "title": "Meeting Don",
+      "paragraphs": [
+        {
+          "class": "no-indent-caps",
+          "text": "WHEN I WAS trying to break into the venture business in the mid-1980s I went to meet the leaders of six firms. All, bar one, told me they did not know what to do with a history major and journalist who had never worked in a technology company, was poor at math and couldn’t tell a voltage regulator from an amplifier. The exception was Don Valentine to whom I owe the opportunity for joining and, eventually, helping build what is now known as Sequoia."
+        },
+        {
+          "class": "calibre3",
+          "text": "By the time I met him, Don had spent decades refining his interviewing technique. He was not one to put young candidates at ease. He conducted his interrogations at a small, round, wooden table in the corner of his large office at 3000 Sand Hill Road where the morning sun blinded anyone sitting opposite him and the view looked towards California’s coastal range."
+        },
+        {
+          "class": "calibre3",
+          "text": "My interview began in silence and with a ritual, bordering on the theatric, for Don had a fine sense of timing. Dressed in slacks, a button-down shirt, tie, plaid socks, and a pair of cordovan, tasseled penny loafers, he padded over to his desk (for yes, in those days there were generously proportioned private offices). His wooden desk was large and L-shaped and organized with the precision of a table set for a state banquet – everything neatly aligned and nothing askew: blotting pad, large desk diary, paper knife, small-clocks and stationary purloined from a fancy hotel that Don had visited on one of his golfing vacations. A LeRoy Neiman silkscreen of the Olympic ski champion twins, Phil and Steve Mahre, hung above the credenza on which were arranged family photographs of Rachel (his wife of 58 years) and his children, Mark, Christian and Hilary. The balance of the available wall space was occupied by prospectus covers for Tandon, Tandem, Dysan, Apple, Valid Logic, and LSI Logic. There was no computer or typewriter."
+        },
+        {
+          "class": "calibre3",
+          "text": "Don retrieved a lined yellow pad from his desk and unclipped a thin ballpoint pen bearing the original, multi-colored Apple logo from his shirt pocket and sat down at the little round table. But the preliminaries had barely begun."
+        },
+        {
+          "class": "calibre3",
+          "text": "There was then a tea ceremony since Don disliked coffee and was an aficionado of loose-leaf teas, all of which were stacked in an imposing wall of pale yellow cans, organized like an ammunition depot, in our small galley. Don placed the tea-infuser in the cup, stirred the water slowly, extracted the infuser, held it above the cup until it dripped dry and then placed it on a small, cork mat."
+        },
+        {
+          "class": "calibre3",
+          "text": "Several sneezes and the unfurling of a large handkerchief followed the tea preparation, for Don was often plagued by allergies. He ran a hand through the thick thatch of hair he maintained until his final breath, locked his blue eyes on me, and played his opening one syllable gambit, ‘so.’ This was accompanied by the faint hint of a question mark. That was my introduction to Don."
+        },
+        {
+          "class": "no-indent-caps",
+          "text": "LIKE ALL OF US, Don was a creature of his heritage. He was born Donald Thomas Valentine on June 26, 1932 in Yonkers, New York, and his formative years were spent in an America that had just emerged from the terrifying scourge of the Great Depression only to be, after Pearl Harbor, swept into the cataclysm of World War II. His father, Milton, was a milkman and his mother, May Hansen, was a homemaker. He had one brother. Neither of his parents had graduated from grade school and his father never possessed a checking account, which meant that Don always paid his college tuition fees in cash. His father was, as Don put it, ‘a minor functionary’ in the Teamsters, far removed from the graft and behavior of its upper echelon. Nevertheless, it was an affiliation that kindled Don’s lifelong dislike for organized unions. From his Danish grandfather, who only spoke partial English and had fought in the Spanish-American war, Don learned that he should never waste any food – a lesson he came to apply to most things in life."
+        },
+        {
+          "class": "calibre3",
+          "text": "Don’s schooling took place in the Bronx, first with Franciscan nuns with an affinity for swatting miscreants on the head, then at all-boys Roman Catholic high school, the Mount Saint Michael Academy under the guidance of Marist brothers. He went on to study at Fordham University, where his professors were Jesuits and whose teaching approach was based on the restless, open-ended questioning style of Socrates. It was this style of inquiry, aimed at rooting out answers to intractable topics from a collection of people with different points of view and experiences that, more than the details of his studies, influenced Don throughout his life. It made him doubt everything – particularly conventional thinking – and was the source of some of his favorite, terse ways of ferreting out answers. ‘Why?’ ‘Who cares?’, ‘Who needs it?’ ‘Why does it matter?’, ‘What does it do?’, and ‘So what?’ were the plain verbal thrusts he came to employ to gauge whether prices could be raised, a product made sense, a new market should be attacked or the significance of a milestone."
+        },
+        {
+          "class": "calibre3",
+          "text": "He studied chemistry at Fordham and was co-captain of the water polo team – a pursuit he conducted with such obsession that in later years he could scarcely tolerate the idea of putting his head in a swimming pool. After graduation in 1954 he was drafted and spent about a year in the army at Fort Monmouth and Fort George Meade instructing officers about radar systems. He was then transferred, due to his prowess at water polo, to a naval air base in Southern California, where he spent mornings surfing at Huntington Beach and afternoons training for the water-polo trials for the 1956 Olympic games. Here he also got his first taste of temperate winters."
+        },
+        {
+          "class": "calibre3",
+          "text": "After the Army he joined Sylvania in 1957, which mainly supplied manufacturers of consumer electronics, and after that Raytheon where he got a taste for military and aerospace customers. He moved to Los Angeles in 1960 to join the company that came to change every aspect of his existence – Fairchild Semiconductor. Photographs of Don from that era show a tanned, handsome man with a crewcut who looked as if he had just stepped out of the astronauts’ training program."
+        },
+        {
+          "class": "calibre3",
+          "text": "When asked whether he went to business school, Don would usually answer that he did and, after a suitable pause, would declare, ‘I attended Fairchild.’ You cannot know Don and how he approached small companies and venture investing, without understanding the significance of Fairchild Semiconductor. Now, more than sixty years after its formation in 1957, the same year the launch of Sputnik advertised to Americans the importance of advanced technology, it is impossible to overstate the influence Fairchild Semiconductor played in Don’s life."
+        },
+        {
+          "class": "calibre3",
+          "text": "Fairchild Semiconductor was California’s first very fast growing technology company. If you are ever inclined to think the problems we encounter today are new, examine the history of Fairchild, which shows us that the challenges in developing companies are the same as ever – it’s just the people, the dates, and the numbers that are different. Fairchild Semiconductor was the first company to design and produce integrated silicon circuits and laid the foundation for the hundreds of billions of units that subsequently have made their way into computers, rockets, airplanes, pacemakers, traffic lights, phones, watches, washing machines, automobiles, door-bells, lightbulbs, missiles, fridges, microwaves, sprinklers, and every muscle, tissue, and sinew of everyday life."
+        },
+        {
+          "class": "calibre3",
+          "text": "It was Fairchild that paved the way for the decline in the cost of computing which made it possible for firms like Sequoia to invest in young technology companies. It was Fairchild that helped set the world on a path which every year has brought about a decline in the cost of computing so that now we don’t think twice about ordering a pair of heated ski socks that can be controlled by an app. If you ever wondered how Sequoia came to invest in short-form video or food delivery companies in China, cancer detection or genetic matching companies in the United States, streaming martial arts competitions and online education lessons in India and Asia, online payments and curated tourism in Europe – all of these businesses can trace their roots to Fairchild."
+        },
+        {
+          "class": "calibre3",
+          "text": "No company in the history of the industrial world has had the impact of Fairchild Semiconductor and, if there was an economic version of 23andMe, Fairchild would be in a class of its own – the progenitor of all the succeeding generations of Silicon Valley companies. Fairchild Semiconductor’s employees, towing their friendships, rivalries, feuds, and animosities, went on to start or play important management roles in dozens, if not several hundred, Silicon Valley companies and venture firms between the end of the 1960s and start of the 1990s."
+        },
+        {
+          "class": "calibre3",
+          "text": "Don joined Fairchild Semiconductor because he understood from his background in chemistry that the silicon favored by the Fairchild engineers allowed electronic devices to operate at far higher temperatures than the germanium that had previously been in vogue. He joined a company whose financing from its parent company, Fairchild Camera and Instrument, had been organized by a 31-year-old New York investment banker, Arthur Rock, a man who became the only venture investor ever to appear on the cover of TIME."
+        },
+        {
+          "class": "calibre3",
+          "text": "Fairchild Semiconductor was formed by a team of eight led by Bob Noyce, the inventor of the silicon integrated circuit, whom Don considered the smartest person he ever met. Years afterwards, when Don used to explain the advantage he held over others in the venture business, he used to proclaim, ‘I could see the future,’ a gift for clairvoyance he attributed entirely to Bob Noyce who had helped him comprehend the role that silicon devices and, a couple of decades later microprocessors, would come to play."
+        },
+        {
+          "class": "calibre3",
+          "text": "The atmosphere Don imbibed during his seven year stay at Fairchild Semiconductor in the 1960s, the circumstances he encountered, the growth he witnessed, the boom he enjoyed, the collapse he fled, echo through every phase of Sequoia’s own business and all our investments. Fairchild Semiconductor taught Don about the importance of large markets, technology, hiring, speed, aggression, frugality, outsourcing, marketing, and, as he used to say, ‘The two things in business that matter: high gross margins and cash flow.’ It also gave him an education in how to achieve business success and the sort of people required to pull it off. Fairchild was profitable very quickly and grew at a rate hitherto unseen in Northern California. By 1961 its sales had reached $91 million – the equivalent of about $760 million today. Fairchild Semiconductor, Texas Instruments, and Motorola came to have such a grip on the semiconductor industry in the early 1960s that Bob Noyce went so far as to suggest that there would never be room for another semiconductor company. Don moved to Fairchild Semiconductor’s Northern California headquarters in 1962 and became head of sales in 1964."
+        },
+        {
+          "class": "calibre3",
+          "text": "If anyone thinks that hiring is taxing today, consider the note circulated in the mid 1960s at Fairchild Semiconductor which described recruiting as, 'probably absorbing as much energy as new product development.' If people wonder whether lunacy like WeWork had precedents, check out the warning issued by the SEC as the stock market boomed in the early 1960s, warning of the 'improper practices in the issuance and sale of space age stocks.' As for the idea that manufacturing in Asia as a competitive advantage only became apparent in the late twentieth century, Fairchild Semiconductor began assembly operations in Hong Kong in 1963. Finally, and perhaps most importantly, if you ever wonder why large companies fail you have to look no further than Fairchild Semiconductor."
+        },
+        {
+          "class": "calibre3",
+          "text": "The East Coast management of Fairchild Camera and Instruments, instead of feeding the business needs of the thriving semiconductor division and rewarding its employees with stock options, used the cash generated by its west coast semiconductor division to invest in sleepier and more traditional areas such as graphic arts, office equipment, home movie cameras, and printing presses. When business at Fairchild Semiconductor started to slow in the late 1960s, competitors picked off its key employees with option packages and an exodus began."
+        },
+        {
+          "class": "calibre3",
+          "text": "For Don, this experience only hardened his resolve against what he saw as the condescending, patronizing, hidebound ways of East Coast companies. Fairchild sowed the seeds of its own destruction and it was soon eclipsed by the spinoffs it spawned: National Semiconductor, the company Don joined in 1967; Advanced Micro Devices (whose lobby came to include a marble bust and painting of a medieval knight portraying likenesses of its founder, Jerry Sanders); and Intel, the most successful of the bunch formed in 1968 by Bob Noyce and Gordon Moore."
+        },
+        {
+          "class": "calibre3",
+          "text": "Fairchild Semiconductor schooled Don in what it took to develop a fast-moving, high growth, technology company and in the hardscrabble tactics required to compete. It also opened his eyes to the bitter intramural tussles between manufacturing, engineering and marketing. While at Fairchild Semiconductor Don, unwittingly, was given a lesson in the basics of venture investing: he had to gauge the relative prospects of customers to help determine which were worthy of special treatment. This required evaluating the markets they were attacking, the competitive merits of their products and the capabilities of their managements. As he gravitated towards marketing he figured out the destiny of a company fell between a marketing department that could figure out what customers needed and an engineering department capable of designing them. Don had helped build Fairchild Semiconductor's salesforce into the industry's most competitive, although his last official post at the company was Director of Marketing."
+        },
+        {
+          "class": "calibre3",
+          "text": "While Don harbored no truck for the management of the parent company, headquartered on Long Island, he found the character and quirks of Sherman Fairchild, its founder, irresistible. Sherman Fairchild's father had been the first president of IBM and had left a fortune at his death. He thus bequeathed to his son a fascination with technology and a taste for the high life. Fairchild started a business to make aerial cameras and, in the 1920s, founded an aircraft company. One Sherman Fairchild idiosyncrasy Don relished came from encountering his employer at a conference table dressed in a blazer and a shirt and tie while, out of sight beneath the table, he was wearing shorts and old shoes. Fairchild's explanation was that while he was sitting or attending cocktail parties he had observed that nobody looks below the waist. (Sequoia's Fairchild connection lives on via The Sherman Fairchild Foundation which has now invested in 48 separate Sequoia funds.)"
+        },
+        {
+          "class": "calibre3",
+          "text": "Don was recruited to join National Semiconductor, then a small public company, as its founding head of sales and marketing by Fairchild Semiconductor's former head of manufacturing, Charlie Sporck, who was leading a turn-around effort. When I encountered Charlie in the early 1980s he was direct and blunt, still driving an old pick-up truck and smoking cigars in the office. In popular lore nothing epitomized the frugality for which National was renowned more than the sheep that one day was employed to trim the fringe of lawn outside its headquarters. A <i>Fortune</i> story of the era labeled the team Sporck headed as, 'The Animals of Silicon Valley' and declared 'National Semiconductor's beastly ways have paid off.' National Semiconductor was a company with a reputation for cost-cutting, bare-bones pricing, and outsourcing as many activities as possible. Like Don, Charlie harbored strong views about what took place in Washington, 'I was anti-government and viewed all politicians as a bunch of bastards.'"
+        }
+      ]
+    },
+    {
+      "id": "ch2",
+      "title": "From Chips to Venture Capital",
+      "paragraphs": [
+        {
+          "class": "no-indent-caps",
+          "text": "AFTER A DECADE in the semiconductor business, Don grew restless, feeling that he had learned what it took to build a startup and engage in a turnaround and that, for him, there were no more mountains to left to conquer within the industry. At National he had started making small investments in young companies. Equally important, he had become acquainted with the community of stock analysts since Charlie Sporck had delegated investment relations to the member of the management team who had the quickest tongue – Don. (Go to YouTube and look at videos of Johnny Carson from the 1950s or Ronald Reagan from the early 1960s, to get a sense for the pace of Don's wit.)"
+        },
+        {
+          "class": "calibre3",
+          "text": "It was during these investor sessions that Don encountered analysts from Capital Research and Management, then a 120-person, Los Angeles-based mutual fund company with just over $1B in assets (compared to $500B and 6,000 people in 2000). One of these employees, its technology specialist, Jim Martin, had worked for Don at Fairchild Semiconductor. A friendly, gregarious man, Jim helped Mike Shanahan, a senior Capital analyst, make the case to their colleagues that the best way to stay conversant on changes in technology would be to invest in a venture fund."
+        },
+        {
+          "class": "calibre3",
+          "text": "The sale within Capital was contentious and protracted and some of the senior people mounted active opposition to the entire idea. Don joined Capital to manage its venture program in early 1972 with the understanding that Capital would help him raise the money. Capital employees were forbidden from investing their clients' money in the fund and could only participate by writing personal checks which, when pooled with the firm's own money, amounted to $1 million. At the time Don joined Capital, he was unaware of the 'Prudent Man Rule.'"
+        },
+        {
+          "class": "calibre3",
+          "text": "There were profound implications of this rule for those hankering to assemble pools of capital to invest in young companies. It meant that the U.S. institutions that these days are the mainstay of the venture capital and leveraged buyout business, from giant state pension funds and corporate pension plans to the endowments of small colleges and hospitals, had to stay on the sidelines. A good portion of the small amount of money invested in the venture business during the 1960s and 1970s came from families such as the Rockefellers and the Whitneys or the government sponsored SBIC (Small Business Investment Company) program established in the late 1950s. Don never contemplated seeking money from the government or contending with federally employed bureaucrats."
+        },
+        {
+          "class": "calibre3",
+          "text": "It was not until 1978 that the government relaxed the rule prohibiting U.S. pension funds from investing in venture capital pools, meaning that Don spent almost two years cobbling together the first pool. It took a lot of work on the part of both Don and Capital to raise $5 million for what later became known as Sequoia Capital I. The Ford Foundation invested $3 million and Capital and Teijin, a Japanese chemical company, chipped in the balance. Don's most important fund-raising ally within Capital was Bob Kirby, who headed Capital Guardian Trust and who, after the 1987 stock market crash, was a member of the five-person team charged by President Reagan to investigate the roots of the meltdown. It was Bob Kirby, too, who penned the line that I have often thought should be repeated every time we contemplate a stock distribution at Sequoia: ‘You can make more money being passively active than actively passive.'"
+        },
+        {
+          "class": "calibre3",
+          "text": "Meantime, some forward-thinking investors started agitating for legislative change. One of the ringleaders was Roger Kennedy, VP of Finance for the Ford Foundation between 1969 and 1977, a man Don labeled his ‘patron saint.' (Kennedy had an unusually varied life. During the 1950s he had been White House correspondent for NBC and after leaving the Ford Foundation he ran the National Park Service and the Smithsonian.) The lobbying efforts in which Kennedy participated paid off in 1978 when the U.S. Labor Department allowed institutions to invest in what hitherto had been considered risky areas."
+        },
+        {
+          "class": "calibre3",
+          "text": "The tiny venture business, which had limped through most of the 1970s, received another tonic in 1978 when federal tax rates on capital gains were reduced from 49.5% to 28%. The effect of these two booster shots was immediate. The $68 million invested in the venture business in 1977 grew to just under $1 billion in 1978 and about $5 billion in 1983. It was against this backdrop that Don, with Bob Kirby providing introductions and coaching, raised the $19 million that became Sequoia Capital II enticing prospective investors with the prospect of annual net returns between 20% and 25%, at least double what they expected from their staple 60/40 selection of publicly traded stocks and bonds."
+        },
+        {
+          "class": "calibre3",
+          "text": "The limited partners in Sequoia Capital II were all Capital clients and were a bit of a hodge-podge: ALCOA, then the largest aluminum maker in the U.S.; Armco, a steel manufacturer; General Electric, a Hong Kong trading company; the Citibank Pension Fund; as well as Capital and Teijin. (The General Electric relationship was short-lived and some years later ended after a meeting when its CEO, Jack Welch, made the mistake of telling Don that he thought that cyclicality made the semiconductor industry a terrible place to invest.)"
+        },
+        {
+          "class": "no-indent-caps",
+          "text": "THE GENERAL PARTNER ranks of the first three Sequoia funds included Capital Management Services (as a legal entity) but more particularly, Mike Shanahan, who was president of both of Capital's principal businesses, and Capital's chief financial officer, Bud MacRae. Mike had organized the financing of Advanced Micro Devices and remained on its board for many years. Bud, a former Deloitte accountant, served on the boards of several Sequoia companies. The first two funds also had a five-person board of directors who, with the exception of Don, were all long-serving Capital employees."
+        },
+        {
+          "class": "calibre3",
+          "text": "When the second fund was raised, Don recruited a former Fairchild Semiconductor salesman, Gordon Russell, to help him. After leaving Fairchild, Gordy had entered the healthcare business and had been the general manager of the Analytical Instrument Division of Syntex, best known for marketing an early birth control pill. Gordy had also managed the medical division of Coherent Radiation. Don wanted Gordy to help Sequoia start investing in medical device and instrument companies which incorporated increasing amounts of electronic technology."
+        },
+        {
+          "class": "calibre3",
+          "text": "The most significant addition to Sequoia was Pierre Lamond. Born in Paris in 1930, Pierre spoke English by the age of nine and developed an early interest in the electronics of radios through listening to <i>Radio France Libre</i> broadcasts from London during World War II. Pierre, who found the war painful to discuss for understandable reasons, survived the Nazi occupation of France partly by finding refuge in Italy. He first heard of the invention of the transistor in 1948 while still at high school. He studied engineering at university in Toulouse, a discipline viewed half-heartedly by the prestigious Parisian Polytechniques. After graduation Pierre was drafted and spent three years in the French army (an experience that taught him 'not to volunteer for anything') where he translated for high-ranking officers at NATO headquarters (then located just outside Paris) and used his spare time to advance his knowledge of the physics of transistors."
+        },
+        {
+          "class": "calibre3",
+          "text": "In 1957, unable to find a semiconductor company in France, Pierre joined Transitron, a Boston company that during the opening chapter of the chip business was a match for Fairchild and Texas Instruments. At first he ran a production line, consisting largely of the wives of Portuguese fishermen, and quickly thereafter ran most of the company's development group because of his knowledge of transistor technology. In 1961, convinced that Transitron's founder was making the wrong technical choices, Pierre resigned and joined Fairchild. There he worked directly for Bob Noyce and Gordon Moore, starting in development before running production. Among the people who reported to Pierre was Andy Grove, who attended the classes Pierre gave on transistor electronics to all new recruits. Grove joined Intel on the day of its formation and he subsequently helped build it into the most important semiconductor company in the world."
+        },
+        {
+          "class": "calibre3",
+          "text": "As frustration with the ham-fisted approach of its parent company mounted at Fairchild Semiconductor, Pierre began recruiting several of its most important managers to defect to National. Once at National, Pierre became Charlie Sporck's second-in-command and it was there that he burnished his reputation for an unsparing management style. (Pierre once fired a man he caught reading a newspaper on one of National's loading docks only to learn that he actually worked for the phone company.) Under Pierre's leadership, National's manufacturing prowess became the most efficient in the chip industry and he was one of the first to see the potential in automated testing equipment. He was a man for whom immediate was never soon enough and he took pride when he heard that the nickname applied to one of the more forbidding buildings erected for National was 'Fort Lamond.'"
+        },
+        {
+          "class": "calibre3",
+          "text": "Pierre left National during the 1970s to run Coherent Radiation, a laser company, and Advent, a consumer electronics company, but eventually returned to the fold. By the early 1980s he had left for good, irritated by Sporck's decision, which was aided and abetted by Floyd Kvamme (who later joined Kleiner Perkins), to diversify into computers, cash registers, and even video games. Pierre then began consulting for a variety of clients including Digital Equipment, Gould, and Don Valentine. When Don formed the third Sequoia partnership he invited Pierre to join as a Special Limited Partner."
+        },
+        {
+          "class": "calibre3",
+          "text": "Don and Pierre were a study in opposites. By inclination Pierre was more liberal, ran daily, preferred tennis to golf and developed one of the best art collections on the West Coast. (Later in life, he was captured in a portrait titled 'Man in a White Shirt' by Lucian Freud, the greatest figurative painter of the second half of the twentieth century.) Whereas Don liked to spend the December holiday break skiing, Pierre invariably headed for Hawaii. Don was every technical support person's nightmare client, while Pierre was quite content to do his own trouble-shooting. (It was characteristic of Pierre to show up at a partners meeting one day with a new Apple Newton. It was just as characteristic of Don some weeks later, noticing that Pierre had reverted to pen and paper, to needle him by enquiring about the whereabouts of the Newton.) Don was quite comfortable in the limelight, saying 'No one has ever accused me of underestimating myself,' while Pierre, who preferred not to draw attention to himself, was quite content playing second fiddle. Don preferred to delegate, Pierre liked his hands on the steering wheel – often phoning companies at 8:00 AM to see whether its leaders were at work."
+        },
+        {
+          "class": "calibre3",
+          "text": "While Don channeled his own formative influences, Pierre contained strains of his countrymen Fourier and Robespierre. Don would brood silently, was rarely, if ever, profane, and operated – unless matters were grave – with an open office door. Pierre, who occupied an adjoining office, was more of a firecracker and preferred his door closed."
+        },
+        {
+          "class": "calibre3",
+          "text": "Behind this door, since Pierre disapproved of Don's interior decorating skills, were an elegant oval table, Eames chairs, and a pair of black-and-white, abstract paintings by Robert Motherwell. Pierre was always immaculately attired, believing that to be well-dressed was 'a competitive advantage,' and whenever Don appeared in one of his more garish outfits, Pierre would announce, 'I see you got dressed in the dark.'"
+        },
+        {
+          "class": "calibre3",
+          "text": "One due diligence trip the three of us took highlighted the contrasts in their personalities. After visiting Prisma, a computer company in Colorado Springs, our return flight was rerouted to stop in San Jose prior to arriving in San Francisco. True to form, Pierre, judging it would be quicker, got off the plane in San Jose to take a taxi to SFO to retrieve his car. Don, by contrast, chose to continue his nap and stayed on the plane until it reached its destination. The following morning Pierre was delighted to learn that he had got home before Don."
+        },
+        {
+          "class": "calibre3",
+          "text": "As investors, Don and Pierre reflected their circumstances. Don was drawn to companies addressing large markets and, though he admired idiosyncratic engineers, was not particularly interested in understanding the technical particulars. Pierre, on the other hand, liked deeply technical undertakings and was less comfortable investing where, at the outset, he did not detect a pronounced technology advantage. At one point, while we were trying to invest in biotech companies, both Don and Pierre attended weekly evening classes at Stanford. At the end of the class it was Pierre, not Don, who would linger behind to grill the professor about an obscure detail of the lecture."
+        },
+        {
+          "class": "calibre3",
+          "text": "It was Pierre who became the active tutor for the four people who have since played leadership roles for Sequoia in the private markets business in the United States – Doug, Roelof, Jim (on whose startup board he sat), and myself. That was fine with Don since his own training program consisted of seeing whether people could swim in the deep-end of the pool. He would say to newcomers, 'You can attend partners meeting, but we don't want to hear you unless we ask you a question.'"
+        }
+      ]
+    },
+    {
+      "id": "ch3",
+      "title": "The Art of Don",
+      "paragraphs": [
+        {
+          "class": "no-indent-caps",
+          "text": "DON COULD BE a man of great charm. He was a ready conversationalist, had a gift for small talk, was invariably curious, quickly settled on topics of mutual interest, and, as a result, could quickly put people at their ease. He made the rounds of large social gatherings with fluid grace and took great pleasure in rolling out his 1950s Bentley to provide chauffeuring services at the weddings of friends' children. The regalia in which he dressed for these events – or for Christmas parties or St Patrick's Day – was chosen for effect and almost always featured a plaid or a tartan and, sometimes, velvet slippers."
+        },
+        {
+          "class": "calibre3",
+          "text": "Don was a nonconformist with a rebellious streak. He detested regimentation and disliked being organized by others, telling an assistant on one occasion, 'I do not want to be mothered.' He was not a man who courted popularity or much cared about what others thought of him. Beyond a golf club, artistic organization, or Stanford, he took satisfaction in not being considered part of a group, hence his refusal to ever countenance the idea that Sequoia should join the National Venture Capital Association, which struck him as dangerously close to a trade union. He was no fan of policies or procedures since he was convinced that they stifled creativity and were promulgated by mediocrities. He didn't wear a watch because there was always someone else who knew the time. Since he disliked raising the blinds in his office and the cleaners always lowered them in the evening, he just severed the cords. At functions he wore his nametag on his right breast because the convention was to wear it over the left. 'It's disobedience that gets you innovation,' he would say."
+        },
+        {
+          "class": "calibre3",
+          "text": "He was a devotee of the writings of Ayn Rand, the author of a pair of novels, <i>The Fountainhea</i>d and <i>Atlas Shrugged</i>, that gained a devoted following of conservatives and libertarians during the 1940s and 1960s. Rand rejected faith and religion in favor of fact and reason and was an ardent supporter of energetic capitalism. (Don signaled his attachment to these ideas by making Ayn his daughter's middle name and later supporting the Ayn Rand Foundation.) Don was a believer in the economic theories of creative destruction advanced by Joseph Schumpeter, and was a 'small c' conservative who identified himself as a Libertarian. He viewed government with suspicion and sometimes traced the beginning of America's troubles to the passage of the G.I. Bill. The only politician he openly admired was Lee Kuan Yew, the founder of modern Singapore, yet despite his feelings, he made occasional contributions to Republican candidates."
+        },
+        {
+          "class": "calibre3",
+          "text": "By nature, Don was a pessimist and I never quite understood why, particularly since he was such a gifted and resilient salesman. He tended to deflect any probing on the topic often attributing it to the fact that he had been given the middle name, Thomas, after the doubting saint. He once excused his disposition by explaining, 'It would be easy to be optimistic if we could manage to have an earthquake on a couple of the main streets of Washington DC.'"
+        },
+        {
+          "class": "calibre3",
+          "text": "Perhaps it was his upbringing, perhaps it was watching the old-style companies of the 1950s wither, perhaps it was the turmoil that ruined Fairchild and later National Semiconductor, or perhaps it was the dramas and struggles that plague and in many cases destroy young venture-backed companies. But, for whatever reason, Don was not prone to imagine what might be possible if everything went right. His expectations of success were always low."
+        },
+        {
+          "class": "calibre3",
+          "text": "Don was a spartan. Beyond houses he was not a man to splurge. He often highlighted the gulf separating 'need' from ‘want.' The Mercedes sports car he bought in 1988, adorned with the license tag, TAIPANV, (a tribute to his affection for the James Clavell novel about the founding of Hong Kong and the ruler of the most powerful trading company in the Far East), lasted him for the rest of his life."
+        },
+        {
+          "class": "calibre3",
+          "text": "For some reason he considered semi-colons and parentheses pretentious, broke out in hives when a management ever contemplated the construction of a ‘campus,' saved paper-clips, was wary about subscribing for a second copy of <i>The Wall Street Journal</i>, and banned filing cabinets because he thought the amount of energy spent storing and retrieving documents was a colossal waste of time. He relished the shock value he extracted from a meeting with the principals of Burr, Egan, Deleage &amp; Company, who, seeking advice about how to establish and organize their business, asked him how much room they should dedicate to filing cabinets. His answer: zero. Don took refuge in the idea that if a document was important, someone else would have a copy. He was a big fan of the way Cisco's CEO, John Morgridge, described at an all-hands meeting how he always traveled first class – by sitting in a row in economy with an eyeshade over his brow and pretending to enjoy the amenities of a more expensive cabin."
+        },
+        {
+          "class": "calibre3",
+          "text": "In business settings Don could be withering. 'I almost never have trouble with smart people,' he once said, 'but I have a lot of trouble with dumb people.' He felt the same about many people in the venture business and proclaimed, 'Not all venture capitalists are smart – a lot of them are pretty dumb.' Although his excitement about an investment would always be difficult to discern, heavy sighs during a presentation signaled his displeasure. Some of these encounters backfired, especially with Jim Clark, the founder of Silicon Graphics and later Netscape, who took great pleasure in recounting in large public gatherings what it took to be on the wrong end of a meeting with Don. Woe betide the company that missed plan or ran out of money prematurely. There was more than one meeting with a company management where Don announced, 'I want my money back.' Don did not limit his criticism to within Sequoia. If you attended a Memorial Service with him it was like accompanying the theater critic of <i>The New York Times</i>. Sometimes it seemed that his tongue was his toughest muscle."
+        },
+        {
+          "class": "calibre3",
+          "text": "Don was not inclined to extend pardons. An investment banking semiconductor analyst, assigned to provide coverage for Sierra Semiconductor, discovered this the hard way after he moved to another bank on the eve of Sierra's IPO. Some time later he visited Don to enquire whether he could wheedle back into his good graces. Don's response, 'Do you believe in reincarnation?'"
+        },
+        {
+          "class": "calibre3",
+          "text": "Don was quick to puncture pomposity and grandstanding. As part of a trip to China organized by Silicon Valley Bank, Don was a member of a delegation that was presented to senior members of the Communist Party. During the meeting, a man with political connections in the United States conveyed, in a long-winded manner, the greetings of some high-ranking politicians. It took Don to say what everyone else was thinking when he announced in a stage whisper, 'Someone tell that blowhard to shut up.' On another occasion, when a lawyer who was to take his deposition extended his hand in greeting, Don replied, 'Why should I shake hands with the enemy.'"
+        },
+        {
+          "class": "calibre3",
+          "text": "Oddly for someone who did not shy away from confrontation in a group setting, Don did not like to deal with one-on-one conflicts. These he subcontracted. Before he stepped back from Sequoia, he had shied away from giving the organizational tree a firm shake. Don, to his eternal credit, was gracious enough to acknowledge his unwillingness to tackle the issue."
+        },
+        {
+          "class": "calibre3",
+          "text": "Don kept his emotions under lock and key. His encouragement was indirect. He was not a back-slapper. He did not send notes that said ‘Awesome', 'Great Work', 'Congrats' or 'Good Stuff.' He meted out expressions of gratitude and praise with an eye-dropper and two of the more powerful words in the English language, 'Well done,' rarely left his lips. After we orchestrated an event celebrating his 75th birthday he reached for the scriptures saying, 'Remember vengeance is mine, I will repay.' He was more inclined to attribute the success of others to luck or fortune rather than judgment and leadership. When, in the mid 1990s, Doug helped ensure Sequoia notched up its second $100 million gain (with a 53x multiple) with Arbor Software, Don voiced doubts about the company's long-term prospects. When I tried explaining why the internet advertising market would dwarf Cisco's, he was skeptical."
+        },
+        {
+          "class": "calibre3",
+          "text": "No matter the circumstances, Don's lightning quick wit made highly amusing company. Once I told him there was good news buried in a report about a software company with which I was helping. His retort, 'Did the president quit?' During one company presentation a founder accidentally fired a binder clip at Don who responded with a broad grin, 'Don't you know it isn't a good idea to hit the source of capital.' Another time someone blurted out, 'There is no confessional large enough to house my sins.' Don's immediate riposte, 'Try St. Peters.'"
+        },
+        {
+          "class": "no-indent-caps",
+          "text": "WHEN I INTERVIEWED with Don, I asked three questions that I have subsequently been asked by countless candidates. 'What does it take to succeed in the venture business?'; 'What does it take to succeed here?'; and 'When will I know I have succeeded?' He readily admitted that he did not know what it took to succeed in the venture business and was much more open than his peers towards people who appeared to have implausible backgrounds for the venture business. He was certain that the conventional view was wrong – how else could he account for the success of characters as diverse as: Arthur Rock, the former investment banker without a technical background who had defied the crippling handicap of a Harvard Business School degree, and had arranged the financing for Fairchild Semiconductor and subsequently Teledyne, Intel and Apple; Tommy Davis, a former vice president of the Kern County Land Company, who had helped form The Mayfield Fund; Pitch Johnson, who had worked in a Midwest steel mill before starting Asset Management; or Reid Dennis who had worked within the Fireman's Fund pension department before forming IVP. For Don, the most important attributes of a venture investor were the power of observation, a lively imagination and a good dose of creativity. (To which I would add raw hunger and street smarts.) Don had a much easier time answering the other two questions. He said the road to success at Sequoia would be determined by two things: 'chemistry' and 'when we trust you.'"
+        },
+        {
+          "class": "calibre3",
+          "text": "After Don offered me a job, I asked him about compensation. His response was, ‘How much are you going to pay me to work here?' Fortunately, I did start to receive paychecks and came to occupy an office previously inhabited by Sequoia's very first associate, who had not lasted long. Among the many things I did not know in 1985 was that Don was not seeking what the leaders of other firms sought. He had seen plenty of people deeply versed in the intricacies of an arcane technology, who were incapable of expressing themselves clearly, let alone tell a story. He knew these types would not flourish at Sequoia. He did not like pontificators or poseurs, people who were full of themselves or thought they had many of the answers, particularly those who made the cardinal error of pretending to know something about which they didn't have a clue. 'There is nothing wrong,' he would remark, 'in saying \"I don't know.\"' In his mind, this ruled out consultants, business school graduates, lawyers, investment bankers, anyone with an HR background, people with hyphenated names or roman numerals after their last name, direct descendants of immigrants who arrived on <i>The Mayflower</i>, people who had enjoyed living on the East Coast, and those who wore Hermès ties, suspenders, cuff-links, signet rings, and monogrammed shirts. Unknown to me at the time was Don's habit of counting the number of times a candidate used 'I' as opposed to 'we.' Candidates who favored the first person were dead on departure."
+        },
+        {
+          "class": "calibre3",
+          "text": "When I joined Sequoia the investment phase of the third fund, a $45M partnership, had just concluded. Our total headcount was ten, of whom five were assistants. (There were also a couple of part-time, retired executives who ghosted in and out.) Business plans were either dropped off at the front door or arrived in the mail. There were no computers, printers or fax machines although we did have a xerox copier and five IBM Selectric typewriters. There was no e-mail, no voicemail, no text-messaging, no video- conferencing and – thankfully – no PowerPoint. Our telephones had been made, supplied and distributed by AT&amp;T and if we were out, or on a call, a message would be jotted down on a pink slip of paper and tucked into a plastic organizer at the front-desk. Appointments were entered by hand on paper calendars. Telephone numbers were kept in cards on spiral rolodexes."
+        },
+        {
+          "class": "calibre3",
+          "text": "Our paychecks, healthcare benefits and business expenses were all administered from the Capital Group's offices on South Hope Street in Los Angeles. We had no chief financial officer, accountant, book-keeper or lawyer – for Don had outsourced all financial administration to the Capital and all legal matters to Wilson Sonsini. No surprise, that in 1985 the nameplate on the front door still read Capital Management Services and Don often chuckled at the idea that until the early 1990s Capital was still footing Sequoia's telephone bill."
+        },
+        {
+          "class": "calibre3",
+          "text": "In the late 1970s and early 1980s the venture business operated at a pace which even the French, with their allegiance to the 35-hour workweek, would have been able to maintain. For Don, mornings started at 9.30 am, most workdays finished around 5.00 or 5.30 pm and dinner and breakfast meetings were rare. Sometimes Don would take off for a dinner prior to a performance by the San Francisco Symphony or San Francisco Opera, but he liked being home early for a 6 pm dinner with his family and, when his children were young, would be a faithful attendee at all their athletic and school events. Don's daughter Hilary loves to tell the tale of her father's brief attempt to coach girls' soccer which ended in tears after a hardening drill, during which he and his two sons peppered soccer balls at their young charges who were lined up against a wall."
+        },
+        {
+          "class": "calibre3",
+          "text": "The exception was Friday when he would appear earlier and, dressed in slacks, sweater and polo shirt, would leave by mid-morning for a golf outing. Often Rachel would pull up in a butter-colored Mercedes station wagon and Don would plop himself down in the passenger seat, pluck some business plans and a copy of <i>Business Week</i> from the brown leather Hartman briefcase which accompanied him everywhere, and the pair would head to Carmel and their weekend home, which was conveniently located close to two of America's great golf courses, Pebble Beach and Spyglass."
+        },
+        {
+          "class": "calibre3",
+          "text": "Monday, the day reserved for partners meetings, was the only time lunch was ordered for everyone from The Sundeck, the small restaurant in the middle of the four office buildings at 3000 Sand Hill Road, which by the early 1980s had become known as the roosting place for venture capital firms. By the time I joined Sequoia, Don was paying close attention to his weight and diet. He did not smoke (both his parents having died of lung cancer) and would stage a theatrical coughing fit if he encountered cigarette fumes. The one exception to this regime was red wine and he had a fondness for expensive burgundies – particularly those paid for by investment banks as part of post IPO festivities. For lunch he would make do with a cup of soup and half a sandwich. During the rest of the week Don would have lunch at The Sundeck where he always ordered an Arnold Palmer and where Tom Ford, a former Stanford University lawyer who turned to real estate and, among other developments, had created what became known as 'Three Thousand' would keep a close eye on everyone."
+        },
+        {
+          "class": "calibre3",
+          "text": "Each of us had a private office with Don maintaining what had long been coveted during the era of 'Mad Men' – the corner office. A small bookcase outside my office housed about thirty brown plastic binders, each of which related to a particular portfolio company. The binder would usually contain a copy of the original business plan and financial reports. Some of them also included a green, hard-covered lab notebooks in which handwritten notes of board meetings were entered."
+        }
+      ]
+    },
+    {
+      "id": "ch4",
+      "title": "The Venture Landscape",
+      "paragraphs": [
+        {
+          "class": "no-indent-caps",
+          "text": "IN THE EARLY to mid 1980s and through much of the 1990s the undisputed leader of the venture business was Kleiner Perkins Caufield &amp; Byers which, in the 1970s, had built its reputation by spawning from within its offices both Tandem Computers and Genentech, later adding to its luster investments in Compaq Computer, Lotus Development, Silicon Graphics, MIPS, America Online, Intuit and Sun Microsystems. For a period in the 1980s and early 1990s, KPCB, founded by Tom Perkins (who had run Hewlett Packard's computer business) and Gene Kleiner (one of the eight engineers who had helped found Fairchild Semiconductor) could not set a foot wrong."
+        },
+        {
+          "class": "calibre3",
+          "text": "Unlike Sequoia, Kleiner Perkins operated with a different approach, but in a spectacularly successful fashion, from behind smoked glass windows in an expensive, designer office high up in San Francisco's Embarcadero Center. There Tom Perkins, usually dressed in a tailored suit and smoking Cuban cigars, received visitors in an office decorated with models of the super-charged Bugattis that he collected (and maintained in a large garage staffed with mechanics in Corte Madera) and of the classic sailing yachts he had begun to restore. When Tom wanted to impress local CEOs and people within the firm's orbit, he stumped up large speaking fees for people like Henry Kissinger, while we staged our own versions at a local bar watching Monday Night football."
+        },
+        {
+          "class": "calibre3",
+          "text": "(Don was no fan of anniversary events, which he always felt were vanity exercises only of interest to the celebrants.)"
+        },
+        {
+          "class": "calibre3",
+          "text": "Don was leery about hiring industry executives with name recognition and large reputations who by the time they gravitated to the venture industry had been too successful, had lost some spring in their step, were not hungry enough, had too many outside commitments and, most of all, were not prepared to become rookies again. (Fortunately, the founders and industry executives who have come to work at Sequoia have been cut from a different cloth and have a sense of humility.) For the most part, Sequoia has flourished by nurturing the unknown, the homegrown, and what becomes the next generation. Don, knew, even if he didn't express the sentiment very often, that consistency, stability, longevity and mutual trust are a partnership's greatest allies, whereas personal vanity, greed, a quest for individual supremacy, the need to traffic around A-Listers and the sense that a partnership should revolve around the whims and needs of an individual, are not the fodder of which enduring partnerships are made. Don recognized that there were plenty of others who had made contributions to Sequoia and that meeting the needs of others was a test of leadership."
+        },
+        {
+          "class": "calibre3",
+          "text": "While there would be occasional national press coverage of Silicon Valley in the mid 1980s, the media and political classes still considered America's industrial and financial might to reside east of the Mississippi. The major newspapers had one or two reporters in San Francisco but, prior to the rise of the magazines covering the personal computer, it was only <i>The San Jose Mercury News</i> and the trade publication, <i>Electronic News</i>, that paid much attention to the companies between Palo Alto and Milpitas. There were no bloggers or tweeters and neither were there more than a handful of seed funds (which in those days occupied a precarious position) or the class of solo capitalists (so artfully – and misleadingly – labeled 'angels') let alone the hundreds, if not thousands, of people writing $25,000 or $50,000 checks."
+        },
+        {
+          "class": "calibre3",
+          "text": "While competition between firms was stiff there were often Monday lunches where one set of partners would troop off to have lunch at another firm. Don would always make some remark about the price being right when we lunched elsewhere. Every month or so most of the venture community would have clan lunches at Quadrus on Sand Hill Road, organized by WAVC (Western Association of Venture Capitalists), where guest speakers were bill-boarded."
+        },
+        {
+          "class": "calibre3",
+          "text": "Once or twice a year the American Electronics Association (AEA) would stage a two or three day conference in a hotel overlooking the freeway in Monterey, where dozens of small companies seeking money would meet with venture investors. These used to be twenty or thirty minute meetings followed up by one-on-one meetings and these encounters sometimes led to investments."
+        },
+        {
+          "class": "calibre3",
+          "text": "For everyone in the venture business the apogee was the Stanford Business School's Company of the Year Award – which was about as close to an Oscar ceremony as we local venture capital firms were capable of staging. It was started in 1979 and still exists, although it now seems like a throwback to bygone times. For about twenty-five years the event involved much behind-the-scenes jockeying and lobbying. It was as close as the venture community could get to staging an Oscar ceremony except ours involved no gold statuette, had little or no media coverage, and took place in a jam-packed room with a bad audio system overlooking the polo field at Atherton's pristine Menlo Circus Club. The prize-winner was always introduced by its main venture backer and we kept close tabs on which venture firm claimed bragging rights and had accumulated the most winners."
+        },
+        {
+          "class": "no-indent-caps",
+          "text": "AT SEQUOIA, partners meetings and presentations were conducted in the only one of our two conference rooms capable of housing more than four people. This was decorated, like the other walls around the office, with copies of posters framed, paid for and supplied by the more notable portfolio companies and some exquisite layouts of chip design fine enough to pass as abstract art. At one end of the room there was a blackboard and a pull-down screen. Most presentations consisted of 'foils' – acetate slides that were placed atop an overhead projector, frequently upside down and often blown to the floor by an errant fan. Occasionally, when a company wanted to put on a real show, the CEO would bring a carousel of 35 mm slides which were installed on a Kodak projector often prompting Don to declare with glee, 'Ah, we get to go to the movies!' Since Don was a believer in lean inventory there were more than a few occasions when, after the projector bulb blew out, the CEO was forced to fall back on improvisational skills."
+        },
+        {
+          "class": "calibre3",
+          "text": "Don was a fan of brevity and precision and a practitioner of realpolitik. The notes he made in meetings were brief and often hilarious – all jotted down in printed letters, a fact he attributed to being forced by nuns to write with his right hand rather than the left hand he favored. 'Franciscan nuns were very adept at beating,' he'd say. His critiques of presentations could have closed Broadway shows in a couple of days. A favorite one-liner for a long-winded presentation, which he lifted from a scene in the movie <i>Amadeus</i> was, “There were too many notes.” On one occasion, exasperated by one circumlocutory explanation, Don extracted a business card from his folder, slid it across the table, informed the CEO that all of us would leave the room for a few minutes and when we returned he hoped that the company's business plan would be written on the back of the card."
+        },
+        {
+          "class": "calibre3",
+          "text": "At the start of a partners meeting, Don went around the room and compiled the agenda (much as we still do today in Menlo Park, albeit in a more automated manner). Don took pains never to speak first and almost always spoke last. He was very aware of what would happen if he voiced his opinion before others and went to great lengths not to influence the jury. Instead he wanted to hear from everyone and, because he was such a skilled poker player, it was usually difficult to discern whether he agreed or disagreed with the sentiments that were expressed. This helped foster the sort of debates about investments that a foreign service officer might characterize as a 'frank and candid exchange of views.' After a younger member recruit had begun to display some mettle, he would begin to invite them to weigh in and let them either hang or distinguish themselves. There were moments of hilarity during partners' meetings but for the most part they were serious affairs – particularly when matters were going awry at a company."
+        },
+        {
+          "class": "calibre3",
+          "text": "Don was not a micromanager. He was comfortable letting others take the floor and was not one of those people who suffocate the initiative of others. He liked to keep things simple and didn't believe people were capable of remembering more than two or three goals. He kept the same approach with portfolio companies saying, “The CEO who runs a good board meeting, runs a good company.’"
+        },
+        {
+          "class": "calibre3",
+          "text": "Don's favorite form of communication was a handwritten note penned in green ink. When Electronic Arts had fallen behind plan and its burn rate had climbed, Don took the company's most recent balance sheet, circled the entry for the cash balance, and wrote in the margin ‘6 months of cash left.' This he then mailed to Trip Hawkins, Electronic Arts' CEO. Inside Sequoia he employed the same method of communication. When we were slow to recognize the advent of the internet, he circulated a <i>Business Week</i> article celebrating the dawn of Netscape, underlined the salient points in green ink and provided the goad we needed to systematically beat the bushes and eventually find Yahoo!."
+        },
+        {
+          "class": "calibre3",
+          "text": "Not everyone knew the source of these handwritten notes. At one Cisco board meeting, the company's VP of sales, Terry Eger, noticed that Don was unhappy and asked him why. 'He said,' Eger recalled, 'you never do anything I ask you to do.' I noticed he was writing in green ink. I then said, 'You're the one who has been sending me the notes in green ink. I have been crumbling them up and throwing them away. You have to sign your name!'"
+        },
+        {
+          "class": "calibre3",
+          "text": "Green was also the color Don chose to represent Sequoia and, for the longest time, our green logo was supposed to represent the leaf of a Sequoia tree. There were many people who mistook it for a marijuana leaf, including U.S. Customs, which once subjected Don's airplane (whose tail was adorned with Sequoia's emblem) to lengthy inspection on a return trip from Mexico. When a designer was asked to come up with Sequoia's first brochure, he asked Don what color scheme would be preferred. Don whipped out a one-dollar note which he held up with both hands and said, 'green.' Don's devotion to green was recognized at one Sequoia function where he was presented with a five-foot high green Crayola pencil that thereafter stood in the corner of his office."
+        },
+        {
+          "class": "calibre3",
+          "text": "One other aspect of Don's management approach merits mention. He was a martinet when it came to maintaining discipline among clients. In the early 1980s, Don was irritated by the demeanor of the new head of the investment department at the Ford Foundation and, as a result, they were dropped from the third partnership. (Happily the Ford Foundation rejoined Sequoia in 1984 and have been a bulwark ever since.) Don's favorite response to any limited partner who began badgering for lower fees, preferential returns or some other concession was to say with a stony glare, 'I read in the history books that slavery had been abolished.'"
+        },
+        {
+          "class": "no-indent-caps",
+          "text": "THE ESSENCE OF Don's approach, both to investments and the management of Sequoia, has placed us in good stead to this day. He was fixated on large markets – sometimes asking how many large companies have been built in small markets. He relished high gross margins believing that they provided lots of cushion for management mistakes and, in well-run businesses, would lead to large amounts of free cash flow and high valuations. He did not bother himself with financial projections since he was convinced they might as well have been published by Marvel Comics. (In the early days he just calculated a company's burn rate by doubling the cost of the engineers.) As for investment results he was a fan of two things: large amounts of gain and very high multiples. Though he understood the personal benefits, he thought any goon with a spreadsheet could double a large amount of money but believed it took real talent to consistently deliver high multiples of money. The shenanigans of the leveraged buyout business with all its financial hokey-pokey left him cold."
+        },
+        {
+          "class": "calibre3",
+          "text": "He would clamp onto burn rates and the line in the income statement that he would always circle in green would be G&amp;A, which nowadays seems ironic given how crucial a role many people working in these functions have for Sequoia. Like Larry Ellison, he believed that anything not closely associated with either directly making, building, marketing or selling a product was a waste of money. He would latch onto any function or person in a company whom he felt impeded the rapid advance of the business or devised rules and processes he found irksome. He reserved special scorn for HR, saying, 'The last person you want to hire in a startup is an HR person. They are the destroyers of companies. They're the ones that write the binders and tell you what the rules are and how much everybody gets in grade seven.' He reserved a special place for lawyers, 'I'd have them nailed up in the lobby.'"
+        },
+        {
+          "class": "calibre3",
+          "text": "In the time he was leading Sequoia, Don rightly saw no need to wander beyond the parish since he was of the mind that, gold had been discovered twice in California – first in the foothills and later in Mountain View. The parish, in his view was, 'the four-oh-eight area code' and he would say that he liked to be able to cycle to companies where he was involved. This was partly because all our contacts were around Silicon Valley and partly because Don believed that, 'when you go east past Denver you go into a technical oblivion.' Travel, save for the odd trip to Southern California or Seattle or, on occasion, Colorado (which housed a cluster of storage companies and where we always lost money), was saved for vacations. Our international strategy consisted of the occasional drive across the Dumbarton Bridge to Alameda County."
+        },
+        {
+          "class": "calibre3",
+          "text": "Don had no sympathy for investment crusades or what others held in vogue. Just because biotech investments held the promise of better health for millions did not mean biotech startups would make for good investments. Later, when some of our competitors went berserk with Greentech investments, Don rolled his eyes."
+        },
+        {
+          "class": "calibre3",
+          "text": "Don jealously guarded the way he spent his time and the effort involved with portfolio companies saying, 'time is only invested where the return prospects do not require candles and prayers.' He took a dim view of people who confused travel with work. When, in the mid-1980s, we were trying to land MIT as a client, Don did not travel to Cambridge, MA. He left that to Gordon Russell, who paid homage at the MIT investment office every time he returned to Boston to visit relatives."
+        },
+        {
+          "class": "calibre3",
+          "text": "Unlike today's portfolio reviews, our investment analysis in earlier days was largely a one-man affair. These would occur after Don had been on a long plane journey returning from his annual golfing migration to Scotland or following the December break. Whether it was summer or winter, his assessments were always so dire that, before I became accustomed to them, I was convinced that we would all soon be living on Bleak Street."
+        },
+        {
+          "class": "calibre3",
+          "text": "After Sequoia's first growth equity fund was raised in 1987 Don was forced, reluctantly, into holding limited partners meetings which, compared to our current Cirque du Soleil performances, were amateur vaudeville shows. The most disastrous was held at San Francisco's St. Francis Drake hotel which, at the time, was undergoing renovation with a non-union workforce. The hotel was owned by a pal of Don's who had offered a discount rate, but it was only when we showed up during one of San Francisco's infrequent hot spells that we discovered all our clients would need to cross picket lines, pneumatic drilling would punctuate the proceedings and the air-conditioning did not work. To top it off one of the speakers – oblivious to his audience – overran his allotted time by thirty minutes."
+        },
+        {
+          "class": "calibre3",
+          "text": "In retrospect, the less clinical aspects of Don's management approach were more important than his oversight of our investment activities. It's worth noting that Don was in charge of Sequoia when two women investors joined us to lead our biotech investment efforts, decades before women had joined other venture firms. One recently recalled, 'Don was always, always, kind and forthright with me. For many reasons I respected him, but I also liked him very much. I often found myself absorbing the things that he said – just little things, sometimes about business, sometimes about people.'"
+        },
+        {
+          "class": "calibre3",
+          "text": "It was also Don who was at the helm when in 1987, when we backed Network Computing Devices, a terminal company co-founded by Judy Estrin, the daughter of a pair of UCLA computer scientists who later, supported by Don, became Cisco's Chief Technology Officer. It was Don too who relished the spirit of both Sandy Lerner the cofounder of Cisco Systems and Carol Bartz, (another computer scientist and one of the Sun Microsystems' management team and later CEO of Autodesk and Yahoo!) whom he recruited to Cisco's Board."
+        },
+        {
+          "class": "calibre3",
+          "text": "Justifiably, much has been made of the fact that Don chose the world's largest and longest living redwood as the name for our business rather than stamping his own name on the front door. It conveyed the longevity and strength with the realism of someone who had seen what happens when people want vanity billing. We were thus able to avoid a plague that has beset other firms – the inevitable second-class citizen status attached to anyone whose name is not on the door."
+        },
+        {
+          "class": "calibre3",
+          "text": "Don spent a lot of time wondering why other venture firms split asunder and were torn to shreds by rivalries between partners and squabbles over compensation and pecking order. Don did what he could to avoid petty quarrels and needless squabbles within Sequoia, at one point hiring an outside consultant (with great effect) to help. Whenever emotions or tempers ran hot he would try to calm things by saying, 'The enemy is outside the gates. Not inside.’ Ego and greed were the two perils with Sequoia that he saw as far deadlier than anything competitors might do to us."
+        },
+        {
+          "class": "calibre3",
+          "text": "Sometimes, during meetings with guests, when all eyes were focused on him, he would deflect attention by inviting others to take the floor. (I've often thought that Sequoia's longevity is due to just one thing: unlike many other partnerships, we have refrained from killing each other.)"
+        },
+        {
+          "class": "calibre3",
+          "text": "More subtly, Don saw no reason to have large differences in compensation between the principals who had proved their value and, after the first couple of partnerships, he made sure that he, Pierre and Gordon received the same rewards. He had scant regard for the heads of hedge funds who hog all the economics or the titans of the private equity industry who believe that the sun only rises when they get out of bed. He thought there was more than enough money to get spread around and saw little reason to heighten tensions and jealousies by having sizeable pay disparities – including between himself and others. He understood the absurdity of our compensation schemes and would often say we would have to be NBA All-Stars to do as well."
+        }
+      ]
+    },
+    {
+      "id": "ch5",
+      "title": "The Portfolio",
+      "paragraphs": [
+        {
+          "class": "no-indent-caps",
+          "text": "ALL COMPANIES ARE like television dramas – some are never more than a pilot show, others are canceled halfway through a season, a number run for a few years and only the exceptional last for decades. But all of them have a story and in Sequoia's case, we could fill volumes with the history of the many dramas in which we have been participants."
+        },
+        {
+          "class": "calibre3",
+          "text": "Over the course of twenty years – the period in which Don was actively involved with making new investments – there are many companies that bear his influence and it would be easy to relay accounts of many, including Valid Logic (one of the first electronic design automation companies), Tandon (a disk drive manufacturer), Altos (a maker of multi-user UNIX-based computers, Oracle (in which Sequoia purchased a secondary stake), Electronic Arts (which started in Sequoia's office in the formative era of the videogame business), Sierra Semiconductor (which led to the formation in Singapore of Chartered Semiconductor, one of the early semiconductor foundries) and NetApp (a data storage company.)"
+        },
+        {
+          "class": "calibre3",
+          "text": "These earlier companies tended to have far shorter holding periods than the ones to which we have become accustomed in the past twenty years. Some of this was due to the absence of a growth equity market, some by the level of interest rates, which peaked at 20% during 1980, and, some by the receptivity of public market investors to small cap companies. (For example, Microsoft's and Oracle's valuations after their 1986 IPOs were $519 million and $188 million respectively while for Electronic Arts it was $74 million in 1989.) By today's standards, the amount of time between an investment and distribution was astonishingly short. Sequoia's $663,000 investment in Altos in December 1980 resulted in a post-IPO $20.1 million distribution before the end of 1982. (If those returns from the Altos investment today seem small in absolute terms today, just multiply by ten or twenty. We do not have many $6 million or $12 million investments that have turned into $200 million or $400 million. In fact, since 1974 we have only had 42 investments with a multiple of more than 20x on invested capital.)"
+        },
+        {
+          "class": "calibre3",
+          "text": "Instead of trying to present an exhaustive summary of the companies with which Don was involved on behalf of Sequoia, I have provided capsule summaries of five with which he is closely associated: Atari, Apple, LSI logic, Linear Technology and, most of all, Cisco Systems."
+        },
+        {
+          "class": "no-indent-caps",
+          "text": "DON, WHO KNEW a good story when he made one, was fond of saying that Sequoia was put on the map by its first investment, a $150,000 wire to Atari. In reality the $600,000 invested in the videogame company started by Nolan Bushnell, who was one of Silicon Valley's more colorful figures in the 1970s and 1980s, became Sequoia's second investment. (The first investment of $150,000 was made in Xciton, a maker of gallium phosphide diodes, and resulted in a 64% loss of capital.) Don's due diligence on Atari included a trip to Andy Capp's Tavern in Sunnyvale where he saw a line of engineers standing outside the bar juggling quarters and waiting for the chance to play Atari's first coin-operated game, Pong. Don was also attracted to the idea that the stand-up game was powered by microprocessors."
+        },
+        {
+          "class": "calibre3",
+          "text": "Don's discussions with Nolan, who had run a game arcade while at college in Utah and whose interest in videogames had been sparked by crude precursors played on oscilloscopes and a DEC minicomputer, centered on his plans for a home version of Pong because of concerns about the mafia overtones associated with coin-operated arcade machines. During 1975 the negotiations between Nolan and Don (who was representing not just Sequoia but also Mayfield, Fidelity Ventures and Time, Inc.) became so protracted that on the eve of the closing the Atari team had second thoughts. The Atari management had averted a cash crunch and when Don arrived with a case of champagne to celebrate the arrangement on behalf of Sequoia, Time Inc., Mayfield and Fidelity Ventures, he was informed that the valuation would be doubled."
+        },
+        {
+          "class": "calibre3",
+          "text": "Thereafter Don accustomed himself to Nolan's habits and the work atmosphere of Atari. The manufacturing area (in which the young Steve Jobs worked) reeked of marijuana smoke and board meetings were sometimes conducted in the hot tub at Nolan's Los Gatos home. Little more than two years after the Sequoia investment, Atari received a large order from Sears for the home version of Pong but the company was strained for capital. In those days the growth equity market was nonexistent and the Atari board had the choice of an IPO or sale. The public market for videogame makers had been undermined by the collapse of the digital watch and pocket calculator markets, and thus when Gordon Crawford of the Capital Group, acting as an intermediary, found a receptive audience in Steve Ross, who had turned a New York parking lot company into Warner Communications, the die was cast."
+        },
+        {
+          "class": "calibre3",
+          "text": "Don took his first trip aboard a private jet when the Atari plane was sent to California to carry him and Nolan to New York to meet Ross. The meal that was served consisted of Kentucky Fried Chicken and Chateau Lafite. Barely a year after Sequoia's investment, Warner bought Atari. Several postscripts to this investment came later: the Atari 2600, its first home player, was introduced in 1977; Nolan quit Warner in 1978; Atari's disastrous foray with the videogame version of E.T. tanked the industry in 1984; and Nolan and Don became partners again when Sequoia financed Chuck E. Cheese's Pizza Time Theater, a chain of amusement centers which gained a reputation for being a place where children could safely play the latest video games and chew on inedible pizza."
+        },
+        {
+          "class": "no-indent-caps",
+          "text": "IT WAS NOLAN BUSHNELL who introduced Don to Steve Jobs. I'm not going to recount the entire story of the origins of Apple except to say that the computer company, with the exception of the founders, was built in its early years by men who had spent years working at Fairchild Semiconductor and National Semiconductor."
+        },
+        {
+          "class": "calibre3",
+          "text": "Don, not about to back a 19 year old with a 'Ho Chi Minh' beard (this being the time of the Vietnam war) without a business plan, introduced Steve to Mike Markkula, who had worked in the Fairchild marketing organization before becoming wealthy as a result of being an early Intel employee. Mike, who unlike Don enjoyed tinkering with computers and programming, immediately saw the appeal of the single-board machine built by the two Steves and invested $250,000. In May 1977, shipments to 180 dealers began for the eleven-pound Apple II (which required a separate, small color television as a display, an audio cassette recorder for storage, and a printer) and by the end of September the company, which anticipated competition from Atari, Commodore, Texas Instruments and Tandy, had net income of $48,000 on sales of $756,000. The projections for fiscal 1978 were for sales of $13 million and earnings of $2 million. The business plan listed the benefits of what was vaguely labeled the 'personal, home, computer' as: personal pleasure and enjoyment, increased variety of entertainment, time saved, money saved, better financial decisions, increased leisure time, complete security of personal information, elimination of wasted paper, energy and storage space, increased personal comfort, improved standard of living, increased learning efficiency, increased knowledge of computers and related technology, protection from fire, theft and personal injury, non-verbal communications ability, reduced pollution."
+        },
+        {
+          "class": "calibre3",
+          "text": "With this sort of a laundry list it is little wonder that Don, who never thought many people would want to use the Apple II to balance their checkbooks or store recipes, was ambivalent about the future appeal of personal computers. (Mike, by contrast, wrote one of the first checkbook programs for the machine.) Included in the 34-page business plan was a financial forecast for 1978 which, in the era before Visicalc, Lotus 1-2-3 and, of course, Excel, included three hand-written pages showing a monthly income statement, sales forecast and cash requirements."
+        },
+        {
+          "class": "calibre3",
+          "text": "Among the pivotal early recruits made by Mike and Steve Jobs were a president (who doubled as head of production) and a head of sales who had both worked at Fairchild and National. The finance head also attended bootcamp at National. Mike Markkula, even though chairman, also ran marketing. Outside marketing help was provided by Regis McKenna, who had worked for Don at National, and went on to build Silicon Valley's first major corporate communications business."
+        },
+        {
+          "class": "calibre3",
+          "text": "Apple's first-round financing, which occurred in January 1978, totaled $517,500 and the principal investors were Venrock with $288,000, Sequoia with $150,000 and Arthur Rock with $57,600. Don joined the Apple Board along with Arthur, Peter Crisp from Venrock and, later, Henry Singleton, who over three decades built Teledyne (also backed by Arthur Rock) into one of America's great technology fueled conglomerates."
+        },
+        {
+          "class": "no-indent-caps",
+          "text": "DON ADMITTED THAT, in retrospect, the only investment he ever knew would be a certain success was Linear Technology, which was an analog semiconductor company started by a team of designers from National Semiconductor. Don did not employ the word 'genius' lightly, but it was what he used to refer to Bob Widlar, the principal designer at Linear, a man about whom there are any number of colorful stories, who fought alcoholism all his life and died at the age of 53."
+        },
+        {
+          "class": "calibre3",
+          "text": "The other person convinced that Linear would be a success was Pierre Lamond, who volunteered himself as Linear's CEO to Bob Swanson, its principal founder, who, like Pierre, had also worked at Transitron and Fairchild Semiconductor. But Bob, then 42, had worked for Pierre for many years and wanted his own shot. Linear, in a $5 million round designed by Don, was financed million by Kleiner Perkins, Hambrecht &amp; Quist, Mayfield and Sequoia. The founders were required to invest $500,000. While Don was the ringleader, he was careful not join the board for fear of retaliation from Charlie Sporck and National. It did not matter because the management of Linear spent seven years fighting off legal challenges from their previous employer."
+        },
+        {
+          "class": "calibre3",
+          "text": "Bob managed Linear in a manner foreign to most startups (one of the closer contemporary equivalents in management approach might be Supercell, the Finnish video game maker). He preferred to keep engineering hiring limited to the best designers rather than water down the quality of his engineering ranks and refused to chase volume, instead concentrating on pursuing proprietary designs which would have long lifecycles and command high margins. Some Linear products enjoyed lifecycles of more than twenty years. It was an approach that worked spectacularly well with Linear's after tax margin running at 35%. The company went public in 1986 and Bob remained intimately involved until its acquisition by Analog Devices for $15 billion in 2017 at which point, thirty-seven years after its formation, he was executive chairman."
+        },
+        {
+          "class": "no-indent-caps",
+          "text": "WILF CORRIGAN, the hard-boiled son of a Liverpool dockworker, spent his life in the chip business. He worked at Transitron and, for many years, Motorola before become CEO of a limping Fairchild some years before its 1979 sale to Schlumberger. After selling Fairchild, Wilf saw an opportunity to design fast turnaround custom semiconductors (ASICS) using proprietary design software while taking advantage of excess manufacturing capacity to save the expense of building a factory. (This idea helped lead to the creation of the custom foundry business developed by TSMC and Chartered Semiconductor.) Wilf formed LSI Logic in 1980 and purposefully polished his pitch with people in Europe, Japan and the East Coast before heading to Sand Hill Road and, eventually, Don."
+        },
+        {
+          "class": "calibre3",
+          "text": "For Don, part of the attraction of LSI Logic was that Wilf, who was 42, could not afford another failure since his outing at Fairchild had stained what hitherto had been a notable career. The $6m first round, anchored by Sequoia with $600,000, bought 60% of LSI Logic with Wilf investing $500,000 – his entire liquid net worth. Both Don and Tom Perkins joined the board."
+        },
+        {
+          "class": "calibre3",
+          "text": "Wilf chose not to wait long before raising a second round and asked for a 10x step-up in valuation which was met with a cold reception by both his principal investors. Don told Wilf that if he could raise money at that valuation, he would pay to have a statue erected in his honor. Tom added that he would pay to gold-plate the statue. Fortunately for Wilf, he had a chance encounter at an AEA meeting in Monterey with Arthur Trueger (who, starting with LSI, built a business raising capital from European sources to fuel the growth stages of some of Silicon Valley's best companies). When Wilf, with Arthur's help, returned from Europe and had raised money at an 8x step up over the first round, Don and Tom presented him with a gold-painted plaster Buddha. When LSI went public in May 1983 (having had sales of $5 million in 1982) it raised the largest sum ever achieved in a technology IPO: $183 million. Some months later Sequoia distributed over $20 million on the $600,000 investment."
+        },
+        {
+          "class": "no-indent-caps",
+          "text": "BY FAR DON'S GRANDEST accomplishment was Cisco Systems – whose early history should serve as a masterclass in the art of venture investing and whose name, for several years, was composed entirely of lower-case letters. Cisco had been started in 1984 by Sandy and Len Bosack, a husband and wife team who had worked in a pair of Stanford's computer labs and had jerry-rigged a system to link the University's different computer networks. Sandy was forceful, opinionated and confrontational and the driving force behind the formation of the business – the sort of character Don always found attractive. Len, by contrast, was quiet, shy and introverted. It was always Sandy who forced Len to finish the engineering projects he was prone to leave incomplete."
+        },
+        {
+          "class": "calibre3",
+          "text": "Sandy and Len used their credit cards to finance Cisco and had assembled its first systems in their living room."
+        },
+        {
+          "class": "calibre3",
+          "text": "Eventually, to keep the company going, they mortgaged their home, and relied on sales reps (rather than full time salesforce) and contract engineers. In both 1985 and 1986 the company had sales of about $130,000. By the founders' own count they talked to several dozen investors before realizing that to have any hope of raising capital they needed what would pass for 'professional management' and hired a CEO and CFO – neither of whom had the qualifications for their positions. In the year ending July 1987, Cisco had sales of $1.5 million and net income of around $150,000."
+        },
+        {
+          "class": "calibre3",
+          "text": "It was at this juncture that we were introduced to the company by Ed Leonard, a Brobeck, Phleger &amp; Harrison partner and former Navy fighter pilot, one of whose colleagues belonged to the same flying club as the Cisco president. Ed contacted one firm that had a conflict, another that never returned the call and Gordon Russell at Sequoia. Gordy, who knew Ed from working together on Circadian, a heart monitoring company, relayed the lead to Don. And thus began a shining example of Sequoia teamwork. For if there is ever a company that showed the effect of gaining a substantial ownership position (rather than trace amounts) and thereafter engaging in active venture participation – it is Cisco. This was Sequoia's 'Full Monty' – (British slang for everything which is necessary, appropriate or possible – aka 'the works.')"
+        },
+        {
+          "class": "calibre3",
+          "text": "As we conducted our Cisco due diligence the background atmospherics provided by the stock market were dramatic. On 'Black Monday' October 19, 1987, the Dow Jones fell 23%, its largest-ever one-day decline, and that paralyzed many investors for weeks. The following Monday Thom Weisel, the head of Montgomery Securities (one of the leading banks of the era), came for lunch. It was as if the world had ended. Thom's advice, 'Stop buying. It's over.'"
+        },
+        {
+          "class": "calibre3",
+          "text": "Despite the grim backcloth, Don had been interested in what he had heard about the eccentricity of Sandy and Len and became more intrigued as he learned about the emergence of TCP/IP as a communications protocol for connecting computer networks. The fact that whetted his appetite more than anything was that the seven-person company was generating revenue without a sales force."
+        },
+        {
+          "class": "calibre3",
+          "text": "At the partners meeting where the Cisco investment was approved, Don, as was his wont, dwelled on all the company's weaknesses – the large number of existing and potential competitors, the complaints we had heard from HP's Dan Warmenhoven (who later became the CEO of NetApp and a longtime Sequoia ally), the absence of what he called 'everything' or anything to do with the management of sales, engineering, manufacturing, marketing and finance – and its 50% gross margins which he considered lamentable. As Don girded himself for game-time (which he did before every investment for which he became responsible), his expression became so grim, his recitation of Cisco's shortcoming so dire, the premonitions of doom so ominous, that I remember wondering why we were investing. At the end of his dirge he announced with much solemnity, 'We need to make at least twenty-five million from this investment to justify the effort.'"
+        },
+        {
+          "class": "calibre3",
+          "text": "The $2.5 million invested in Cisco bought one third of the company, Sandy and Len retained another third (66.6% of which was subject to four-year vesting), while the remaining third was reserved for future management and the other five employees of the business."
+        },
+        {
+          "class": "calibre3",
+          "text": "In addition to the members of Sequoia who were at the partners meeting when the Cisco investment was approved were three other attendees. Two were from the French bank, Indo-Suez, with whom at the time we co-managed a fund. The other attendee, whom Don always addressed as ‘Mister Koh,' had been charged by the government of Singapore to learn about the venture business and establish an investment office in California. For about a year Mr. Koh perched at Sequoia. I mention this because in these days, when companies stay private for a decade and raise billions of dollars, the $2.5 million invested in Cisco – the only equity raised by the company prior to its IPO – stands in sharp contrast. Our ownership level meant that the investment, if it worked, would have a massive influence on the overall return of the fund."
+        },
+        {
+          "class": "calibre3",
+          "text": "Sequoia Capital IV and its affiliated funds – one for the Sequoia Technology partners and the other for employees of The Capital Group – invested $1.965 million; the Stanford University Engineering Fund (which Don, along with a group of other venture investors helped manage, $35,000); the Indo-Suez fund contributed $400,000; and when Don said, 'Mister Koh, how much do you want?' the answer was $100,000. The investment closed on December 14, 1987 – 55 days after the stock market crash"
+        },
+        {
+          "class": "calibre3",
+          "text": "In the same month that the investment closed, three significant events occurred, all of which had to do with Sequoia. Don immediately press-ganged Pierre Lamond to become acting head of engineering at Cisco. As it got rolling, Pierre spent part of several days a week at the company and, over the first five years, churned through three engineering managers until he recruited one in whom he had confidence. He continued to attend Cisco's engineering meetings long after the company went public, and is Sequoia's great unsung hero in this investment (as he was at both Microchip and C-Cube Microsystems where he shouldered much of the burden although Don was also the Chairman of both those companies)."
+        },
+        {
+          "class": "calibre3",
+          "text": "The second big development was Don's recruitment of Terry Eger as head of sales, who became his favorite salesman of all time. Don liked the way Terry said he would take stock in lieu of commissions, admired his missile-force directness, his impatience with formal reports and organization structures and the way that he carried everything around in his head rather than on paper. Don said of Terry, 'it didn't matter to him where the customer was located. If the customer was on a canoe in the middle of Hudson Bay, he'd find a way to land a sea plane in the middle of Hudson Bay and talk to him.' Terry was rarely at Cisco's office – he was either recruiting, with customers, or at Sequoia complaining to Don about everything that was wrong with the company. But within a year, Terry had assembled the most lethal North American sales force in the networking business and provided Cisco with a distribution machine capable of selling all sorts of networking equipment."
+        },
+        {
+          "class": "calibre3",
+          "text": "The third prod came when Don pressed the small Cisco team to raise prices, a reflection of his obsession with gross margins. Between the start of 1988 and 1990, Cisco's gross margins rose from 55% to 65%. Meantime, Don had applauded Cisco's embrace of outsourced manufacturing and had also built a Board of Directors in whom he had confidence – one being a cofounder of LSI Logic and another the CFO of Octel, then the leading supplier of voicemail systems."
+        },
+        {
+          "class": "calibre3",
+          "text": "The first major Cisco drama occurred six months after the financing closed, when Sandy and Len informed Don that they wanted to fire the CEO that they had hired. This was the first and only time when Don stepped in, albeit briefly, as a CEO to fill the void before the arrival of an interim general manager – a silvery-haired, avuncular figure with a history in the semiconductor business."
+        },
+        {
+          "class": "calibre3",
+          "text": "A CEO search was initiated and, eventually, Don settled on John Morgridge, then aged 55, who became Cisco's thirty-fourth employee and who appealed to Don because, beyond having been instrumental in the rise of Stratus (a maker of fault-tolerant minicomputers), he had just suffered a career setback as the head of a failed portable computer company and had one last shot at redemption. (It was the same pattern – recruiting someone who could not afford to fail – that worked, in earlier days, with Wilf Corrigan at LSI Logic and, in later days, when Don recruited Dan Warmenhoven to run NetApp.) John also had a reputation for being even more frugal than Don. Later Don admitted that John grasped Cisco's potential better than he did. When John told him he would run Cisco until sales hit a billion dollars Don said, 'I thought to myself, 'you've got to be kidding,' I won't live that long.'"
+        },
+        {
+          "class": "calibre3",
+          "text": "These Sequoia administered booster shots had an enormous effect. By Cisco's 1989 fiscal year, sales had risen to $28 million and net income to $4 million. One year later those numbers has reached $69 million and $14 million. Cisco's IPO took place in February 1990 (after the management had received extensive presentation coaching from a figure Don dubbed 'The Dean of Charm School') with a pre-money valuation of $182 million and Sequoia's pre-money ownership standing at a spectacular 29.2%."
+        },
+        {
+          "class": "calibre3",
+          "text": "Drama was a leitmotif at Cisco, as it is in many companies, but here it happened to involve drive-by shootings in the parking lot, which on some mornings required an employee to pick up spent cartridges off the floor of their East Palo Alto headquarters. There was also a dust-up that surprised even Don, a veteran of the rough-and-tumble chip industry, when a fist fight erupted between two members of Cisco's management. But the biggest drama came some six months after the IPO and involved the departure of Sandy and Len."
+        },
+        {
+          "class": "calibre3",
+          "text": "Contrary to many accounts, the die was cast not by Don but by seven members of the management team who suddenly appeared one morning at Sequoia to inform him that either Sandy had to go or they would all quit. Ironically, Don was viewed by the management as Sandy's protector because it was no secret that he admired her self-appointed role as the VP of customer advocacy and appreciated the fire she displayed. But the deed was done and when Sandy quit so did Len."
+        },
+        {
+          "class": "calibre3",
+          "text": "Another hallmark of Cisco's formative years was its approach to acquisitions, which was heavily influenced by guidance from customers who would meet directly with the engineering organization. It was feedback from Boeing that led to Cisco's 1993 purchase of Crescendo Systems (also Sequoia backed), which at the time was an engineering group with a product – network switches – but no distribution. Crescendo's projections for its first year of sales was $10 million. More than $100 million of Crescendo switches were sold in the first year as part of Cisco, a fine illustration of the benefits of minimizing time to market."
+        },
+        {
+          "class": "calibre3",
+          "text": "By the time John Morgridge, who Don had come to consider a spiritual soul-mate, passed the CEO mantle to John Chambers in 1995, Cisco had passed $2 billion in sales and had 2,250 employees. Don and John both stayed on Cisco's board until they retired together in 2006 – 29 years after Sequoia's original investment."
+        },
+        {
+          "class": "calibre3",
+          "text": "In the years immediately following our Cisco distribution I often stared at the financial statements for Sequoia Capital IV, and wondered how we would ever top the investment. At the time I thought it impossible. Our distribution of Cisco taught me two lessons. The first was that the decline in computing cost would continue to expand the size of markets that Sequoia-backed companies can pursue, thus making it possible for several more generations to always top the returns of their predecessors. That remains true today – our future returns should always eclipse our past returns. The second lesson was that the leading company in a rapidly growing market can flourish for years if not decades. As Cisco's revenues and profits continued to grow, the value of the company followed suit. By 1993 Cisco's market cap reached $7 billion and by 1994 (the year in which Cisco first appeared on the <i>Fortune 500</i>) it exceeded $10 billion. At the end of 1998, before the world was completely swept up in the dotcom hurricane, Cisco had a market value of $176 billion. Eventually, I learned another lesson, Anything is Possible™."
+        }
+      ]
+    },
+    {
+      "id": "ch6",
+      "title": "Legacy",
+      "paragraphs": [
+        {
+          "class": "no-indent-caps",
+          "text": "AT THE TIME I first met Don, then aged 54, I asked him whether he planned to retire anytime soon. He ruefully admitted that others had asked him the same question and shook his head. Understandably, as the years passed, his attitude changed. After twenty years in the venture business he no longer wanted to feel imprisoned by the obligation of being legally responsible to external clients. While Don enjoyed thinking about and discussing investments, by the time he reached his early sixties he, quite understandably, started to find some aspects of managing Sequoia exasperating and he felt a little unsettled by not knowing the details of all our investments as the partnerships grew in size."
+        },
+        {
+          "class": "calibre3",
+          "text": "Don had become allergic not just to the oak trees that dot the Northern California landscape, but also to the increasing rate of tax levied by the state of California. He had bought a home in Arizona which, to make his legal residence, meant that he had to spend at least six months a year outside the Golden State. He was also affected by the retirement decision of Gordy Russell, the partner to whom he felt closest. Don edged away from the business earlier than most people realize – before smartphones, e-mail, texts and travel transformed the rhythm of the business. He handled all this with the minimum of drama and did not dwell on either the decision or timing. I suspect he understood that to do so would only trigger politicking and anxiety. So while for outsiders the change in Don's role was imperceptible, for those of us on the inside it was clear. He knew it was the time for others, he understood he should no longer be the face of Sequoia and he was careful not to overstay his welcome."
+        },
+        {
+          "class": "calibre3",
+          "text": "Despite the urban myths that have been put about, when Don decided to back away from Sequoia, there was no grand plan of succession. There was no formal anointment of successors, no announcement and no handing over ceremony. This was not surprising given that in all his prior roles – as a junior contributor at Sylvania and Raytheon; as a successful head of sales and marketing at Fairchild; and as a cofounder at National Semiconductor – Don had never needed to concern himself with who was going to lead the organization. Sequoia was the first time Don had confronted the challenge and as he said when he and I met in early 1992 he had a sense of 'après moi le deluge.'"
+        },
+        {
+          "class": "calibre3",
+          "text": "After consulting Larry Sonsini about how Wilson Sonsini handled succession he had concluded that there was no recipe and that the rivalries and jostling that exist between people in their thirties or forties made the chances for a successful transition at Sequoia slim. While he certainly did not want Sequoia to fail, Don also did not expect it to thrive in his absence. In 1989, even with Don at the helm, we had struggled to scrape together $64 million for our fifth venture fund because so much of our Growth Fund remained uninvested. (Don, whose signals were often oblique, labeled the management partnership for this fund 'FR' – for farewell and retirement. By the end of 1992, with the formation of our sixth venture fund, the impending change in his role was set in stone when Don chose Omega – the final letter in the Greek alphabet – for the name of that Managing Partnership.)"
+        },
+        {
+          "class": "calibre3",
+          "text": "Contrary to popular legend, Don did not 'give' Sequoia to a younger generation. 'The verb 'give' does not exist in my version of <i>Webster's Dictionary</i>,' Don would say if a CEO sloppily suggested during a presentation that Sequoia should give his company a certain investment. The same applied within Sequoia as Don retreated. However Don was aware of the deleterious consequences of an older generation hogging their share of the economics for too long. He knew that in most instances this triggered the rupture of partnerships."
+        },
+        {
+          "class": "calibre3",
+          "text": "Unlike some of his generation, he never tried to put a value on the management company and sell his stake to the rest of us. (This is also why today Sequoia is organized in such a way that it cannot be taken public in order to enrich one generation.) Instead, when he and I sat down to discuss his economics there would be a little bit of good-natured jousting but by then the conversations had become easy. Don never insisted on a number, or a percentage, and never over-reached. He always accepted what we gave him and he left it to us to decide. At no time did any of us feel gouged."
+        },
+        {
+          "class": "calibre3",
+          "text": "During his retreat from daily obligations, Don shifted responsibilities and also tilted the pinball machine when necessary. Responsibilities for limited partners were given to others, and when Wilf Corrigan called to refer an LSI employee whom he labeled as one of the smartest people in the company, Don delegated responsibility for Jen-Hsun Huang and nVidia to the next generation. When both Yahoo! and Flextronics, a contract manufacturing services business, proved to be investments that provoked controversy within Sequoia, Don helped thwart the opposition."
+        },
+        {
+          "class": "calibre3",
+          "text": "There is rarely a time when a leader steps away and everything is humming. That was true too for Sequoia. Just because things happened a long time ago, doesn't mean they were smooth, so don't believe the airbrushing that invariably occurs as people try to recapture the past. Remember, nostalgia is never what it was."
+        },
+        {
+          "class": "calibre3",
+          "text": "In the years prior to Don's retreat, we had experienced a fair amount of personnel turnover and had yet to figure out how to staff a growth equity team and give the activity the attention it deserved. During the latter part of the 1980s and 1990s, we had permitted Summit Partners and T.A. Associates to run away with a business which, at Sequoia, at least in the U.S., has really only come into its own in the past few years. As for healthcare, we struggled – partly because of the taxing nature of the market and partly because of the lack of internal support from a group more inclined to make electronics investments. In 1996, our total headcount was just seventeen – eight investors, three in finance, four assistants, a receptionist and our vast iT department consisted of one part-timer managing an e-mail server stored in a kitchen closet, a two channel ISDN modem to connect to the internet and a color LaserWriter stashed beneath the desk of our receptionist."
+        },
+        {
+          "class": "no-indent-caps",
+          "text": "LIKE EVERYONE, Don found the transition to a role where he had perceived authority but no responsibility challenging. As usual, he summed up the dilemma in a pithy manner, 'Kings in this business don't die. They stay around. There's nothing worse than having a King who refuses to die. Former Kings are a pain in the ass. They're all like the Duke of Windsor.' But unlike the former King of England, Don did not set up a separate court, or engage in subversive politics and neither did he feel a need for the trappings of a former leader."
+        },
+        {
+          "class": "calibre3",
+          "text": "While I knew he disapproved of many of our initiatives, he kept his feelings to himself and did not sow seeds of discontent. There was a part of him that understood Sequoia's long-term health depended on giving younger members who had made major contributions the freedom, wherever necessary, to reinvent and upturn the past. After all, investing principles don't change, but the mechanics that work in one era doesn't necessarily extend to the next. Unlike other retired investors who took to publicly criticizing their prior partnerships, Don was the soul of discretion."
+        },
+        {
+          "class": "calibre3",
+          "text": "Intervention or direct admonitions were very rare. Don saved his shots for when they were needed. Once, after an LP meeting he rightly upbraided me a for being too harsh. And after we got ourselves in a pickle with a whole rush of silly investments in 1999, Don made one of his rare interventions and administered a necessary colonic via a note jotted down on a sheet which listed our troubled investments. As always it was in green, in capital letters and carried no signature. But the message I received was fair, appropriate and unambiguous."
+        },
+        {
+          "class": "calibre3",
+          "text": "For some years after his management responsibilities had ceased, whenever he was in California, Don attended partners meetings but would maintain a stony silence throughout the proceedings. He would volunteer an opinion when asked but would never, as ever, speak first and always refrained from saying anything after the debate had finished. He knew too when the time was right to stop attending these sessions."
+        },
+        {
+          "class": "calibre3",
+          "text": "Eventually, he withdrew from all investment activity (save for one small healthcare company he nursed along, which helped stroke treatment) and derived more pleasure from activities in Arizona and Montana than involving himself with Sequoia investments in young companies in Silicon Valley. He found more time for golf and continued with his Stakhanovite approach to summer vacations. These often started with a visit to London where he immediately made a beeline for a coach who helped him with his golf swing before traveling to Scotland where, come rain or shine, he would play two rounds on as many days as possible. His location of the Gates of Heaven was the spot in Scotland closest to St. Andrews, Carnoustie, Muirfield and Royal Troon. When in Alaska, he got more of a frisson from proximity to bears than he did from casting a rod."
+        },
+        {
+          "class": "calibre3",
+          "text": "He came to enjoy attending Sequoia suppers and playing poker at general partner meetings with younger aces from every part of our business. He made the occasional comment during limited partners' meetings and when he did they were pointed. For example, in 2010, when we hauled all of our clients to Beijing to attend a meeting during one of China's colder winters, Don asked a Chinese guest what was on everyone else's mind, namely whether offshore investors' money was treated the same as domestic investors. Don was satisfied when he was given an equally candid answer, 'no.'"
+        },
+        {
+          "class": "calibre3",
+          "text": "Don was a ready source of advice for those who stopped by his office and I sometimes dropped by just to talk to him about topics I couldn't discuss with others. Now, I regret not stopping by more often just to keep him apprised of what was happening. Once, bemoaning the fact that investments never got more straightforward, I saw a flash of vintage Don. I asked, 'Why does it not get any easier?' His answer, 'Why should it?'"
+        },
+        {
+          "class": "calibre3",
+          "text": "Beyond Sequoia, Don had a long involvement with the San Francisco Symphony, and much admired its musical director, Michael Tilson Thomas, with whom he was still chatting last summer. He served on the Symphony's board of governors for several years and led the effort to raise money to furnish the players with higher quality instruments – a pursuit which eventually led him to Cremona, about an hour south of Milan, which is the birthplace of Stradivarius and still a center of violin making. The experience with the Symphony taught him that he was temperamentally ill-suited to sit on the boards of not-for-profits (frustrated, for example, by long debates about the importance of having the orchestra rank at the top of some New York Times ranking) so when he received an invitation to join the board of the San Francisco Opera, he demurred and instead became a member of the Opera Guild, which finances musical education. He developed a morbid fascination with the plots of operas which he studied closely and with wry detachment."
+        },
+        {
+          "class": "calibre3",
+          "text": "Don's two major sporting interests were American football and golf, but he admired all kinds of athletic achievement, including the soccer games he watched at Stanford as part of the 1994 World Cup. He was a devoted fan of the Oakland Raiders, perhaps drawn by the outcast sensibility fostered by its longtime principal owner and general manager, Al Davis; or by its emblem – which is a black and silver pirate; or by the fact that during the 1970s it was one of the most successful franchises in American sports. Don was a frequent attendee of Stanford football games and an admirer of Tom Brady, the nine-time Superbowl quarterback, who recorded a video message for him as his days dwindled down. As for golf, Don was one of the legions of admirers of the affable man from Latrobe, Pennsylvania, Arnold Palmer, and treated invitations to Augusta like visits to the Vatican. As for baseball, the only game I recall Don attending was Game three of the 1989 World Series between the San Francisco Giants and the Oakland Athletics at San Francisco's Candlestick Park. He was saved from having to watch a sport he did not particularly cherish because thirty-one minutes prior to game-time, the 6.9 Loma Prieta earthquake sent concrete crumbling from the upper decks of the stadium. (The game was played ten days later.)"
+        },
+        {
+          "class": "calibre3",
+          "text": "During his active days, Don was a devoted supporter of the Stanford School of Engineering and helped orchestrate the Stanford Engineering Venture Fund, which became a model for universities across the nation. The gains from this fund were so great that they paid for the construction of the new quad for the School of Engineering. Don was also a keen supporter of medical research which, among other causes, he supported with his family foundation."
+        },
+        {
+          "class": "calibre3",
+          "text": "The happiest I ever saw Don was when he was in the company of Jim Martin from the Capital Group or Pat Foley, the former CEO of DHL. Pat had started life as a hotel clerk before working his way over three decades to the chairmanship of Hyatt Hotels. Pat, a large, gregarious fellow would arrive in the office like a politician looking for votes – greeting people by name, shaking everyone's hand and gossiping about the absurdity of the venture business. There was an element of laughter and carefree frivolity to Don when the pair of them headed off to play golf chortling like a pair of teenagers."
+        },
+        {
+          "class": "calibre3",
+          "text": "As Don slowed and as the indignities of old age became increasingly visible, he kept his family life and the arrival and growth of grandchildren to himself. After he had signs of possible skin cancer removed from his face, he just sat in his office holding an ice-pack over the swellings. Later, he always brushed off questions about his health or hospital visits and maintained a stoical attitude as his once well-fitted jackets became looser and the hardening set in. Don was not inclined to self-pity and, on the few occasions when he was so struck, it involved the death of a person close to him such as Jim Martin and Pat Foley's wife, Paula. As Don aged I sometimes thought about an incident decades earlier when we had all gone to lunch at another firm and the wheelchair of its aging cofounder, who looked as if he had just been exhumed from a catacomb, was pushed in by a younger partner. Watching this scene Don had muttered that, when his time came, he never wanted to be treated as a museum piece. His pride and dignity ensured that he wasn't."
+        },
+        {
+          "class": "calibre3",
+          "text": "Until his final few months Don still drove himself from Woodside to Sand Hill Road. He would park his red Mercedes two-seater car with the license plate, TAIPANV, opposite the entry to the office. He would give a warm greeting to the receptionists, badger Margot to replace the batteries in the small desk clocks that decorated his office and then summon I.T. to help with a computer issue. But gradually the sightings became less frequent until, during his last few months, they stopped, and the spot usually occupied by TAIPANV was empty."
+        }
+      ]
+    }
+  ]
+};
