@@ -141,7 +141,7 @@
     // Wait for exit animation (220ms ease-in)
     setTimeout(() => {
       // Update content
-      elements.chapterContent.innerHTML = renderChapter(chapter);
+      elements.chapterContent.innerHTML = renderChapter(chapter, index);
 
       // Update UI
       state.currentChapter = index;
@@ -166,7 +166,7 @@
     }, 220);
   }
 
-  function renderChapter(chapter) {
+  function renderChapter(chapter, chapterIndex) {
     let html = '';
 
     // Add chapter title
@@ -186,7 +186,7 @@
     });
 
     // Add next chapter button if not the last chapter
-    if (state.currentChapter < state.totalChapters - 1) {
+    if (chapterIndex < state.totalChapters - 1) {
       html += `
         <button class="next-chapter-btn" onclick="window.goToNextChapter()">
           <span class="next-chapter-label">Next Chapter</span>
